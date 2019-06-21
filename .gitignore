@@ -1,0 +1,18 @@
+# Python3
+__pycache__/
+
+# Python2
+*.pyc
+
+# Development Environment
+.ipynb_checkpoints/
+.vscode/
+.idea/
+checkpoints/
+
+# Special
+tensorboard/
+test_data/
+plot_result.ipynb 
+config.py
+plot_predict.ipynb
