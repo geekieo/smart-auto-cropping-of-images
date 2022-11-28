@@ -2,7 +2,7 @@
 
 # DeepGaze Body Architecture
 Layer #|Kernel Size|Stride|Dilation|Padding|Input Channel|Output Channel|Input Size|Output Size|Receptive Field|name|remark|
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 1	|3         |1	|1	|2	|3  |64 |224 |224 |3   |conv1_1|╮
 2	|3         |1	|1	|2	|64 |64 |224 |224 |5   |conv1_2|┃
 3	|2         |2	|1	|0	|64 |64 |224 |112 |6   |pool1  |┃
