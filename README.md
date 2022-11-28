@@ -1,6 +1,9 @@
 # Smart Auto-Cropping of Images
 
-# DeepGaze Body Architecture
+## Abstract
+The purpose of this project is to automatically crop the image to the target ratio based on visual attention.
+
+## DeepGaze Body Architecture
 Layer #|Kernel Size|Stride|Dilation|Padding|Input Channel|Output Channel|Input Size|Output Size|Receptive Field|name|remark|
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 1	|3         |1	|1	|2	|3  |64 |224 |224 |3   |conv1_1|╮
@@ -27,7 +30,7 @@ Layer #|Kernel Size|Stride|Dilation|Padding|Input Channel|Output Channel|Input S
 22	|32        |16  |1  |2	|1  |1  |224 |224 |196 |deconv |╯
 23	|153(fixed)|1   |1  |2  |1  |1  |224 |224 |196 |blur   |
 
-# Reference
+## Reference
 
 [1] Speedy Neural Networks for Smart Auto-Cropping of Images, https://blog.twitter.com/engineering/en_us/topics/infrastructure/2018/Smart-Auto-Cropping-of-Images.html  
 [2] M. Kümmerer, L. Theis and M.Bethge. Deep Gaze I: Boosting Saliency Prediction with Feature Maps Trained on ImageNet. In *2015 International Conference on Learning Representations - Workshop Track(ICLR)*, May 2015  
@@ -40,7 +43,7 @@ Layer #|Kernel Size|Stride|Dilation|Padding|Input Channel|Output Channel|Input S
 [9] M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, L. Chen. MobileNetV2: Inverted Residuals and Linear Bottlenecks. arXiv:1801.04381v3, 2 Apr 2018  
 
 
-# Requirements
+## Requirements
 
 create and activate an environment base on **Python 3**  
     pip install opencv-python  
