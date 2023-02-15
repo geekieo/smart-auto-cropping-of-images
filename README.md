@@ -45,7 +45,7 @@ Layer #|Kernel Size|Stride|Dilation|Padding|Input Channel|Output Channel|Input S
 
 ## Requirements
 
-create and activate an environment base on **Python 3**  
+create and activate an environment based on **Python 3**  
     pip install opencv-python  
     pip install tqdm
     pip install tensorflow-gpu
